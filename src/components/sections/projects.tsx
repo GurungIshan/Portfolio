@@ -34,17 +34,6 @@ export function ProjectsSection() {
             const placeholder = getPlaceholder(project.imageId);
             return (
               <Card key={project.title} className="flex flex-col overflow-hidden">
-                <div className="relative h-60 w-full">
-                  {placeholder && (
-                    <Image
-                      src={placeholder.imageUrl}
-                      alt={project.title}
-                      fill
-                      className="object-cover"
-                      data-ai-hint={placeholder.imageHint}
-                    />
-                  )}
-                </div>
                 <CardHeader>
                   <CardTitle>{project.title}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>

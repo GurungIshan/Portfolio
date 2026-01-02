@@ -23,6 +23,12 @@
       "description": "Homepage of the Cardio Crush Fitness Zone website.",
       "imageUrl": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zml0bmVzcyUyMGd5bXxlbnwwfHx8fDE3NjczMzI2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fitness gym"
+    },
+    {
+      "id": "stocksync",
+      "description": "An inventory management system dashboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1579226903287-d2c774431535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbnZlbnRvcnklMjBtYW5hZ2VtZW50fGVufDB8fHx8MTc2NzMzMzI0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "inventory management"
     }
   ]
 }

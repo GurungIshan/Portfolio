@@ -45,7 +45,6 @@ export const skillsData: SkillCategory[] = [
     icon: Server,
     skills: [
       { name: 'PHP' },
-      { name: 'Java Spring Boot' },
       { name: 'ASP.NET Web API' },
     ],
   },
@@ -86,12 +85,11 @@ export type Project = {
 
 export const projectsData: Project[] = [
   {
-    title: 'RefreshCart',
-    description: 'A comprehensive eCommerce website built from the ground up, featuring product listings, shopping cart functionality, and user authentication.',
-    techStack: ['PHP', 'Bootstrap', 'MySQL', 'JavaScript'],
+    title: 'Dot Connect',
+    description: 'A hackathon project focused on Sustainable Development Goals (SDGs), creating a platform to connect volunteers with community projects.',
+    techStack: ['React', 'Java Spring Boot', 'PostgreSQL'],
     githubUrl: 'https://github.com/GurungIshan',
-    liveDemoUrl: '#',
-    imageId: 'refreshcart',
+    imageId: 'dot-connect',
   },
   {
     title: 'Traffic Congestion Level Predictor',
@@ -101,19 +99,19 @@ export const projectsData: Project[] = [
     imageId: 'traffic-predictor',
   },
   {
-    title: 'Dot Connect',
-    description: 'A hackathon project focused on Sustainable Development Goals (SDGs), creating a platform to connect volunteers with community projects.',
-    techStack: ['React', 'Java Spring Boot', 'PostgreSQL'],
-    githubUrl: 'https://github.com/GurungIshan',
-    imageId: 'dot-connect',
-  },
-  {
     title: 'Cardio Crush Fitness Zone',
     description: 'A dynamic website for a gym, featuring class schedules, online booking, and secure payment integration for memberships.',
     techStack: ['HTML', 'CSS', 'JavaScript', 'Payment APIs'],
     githubUrl: 'https://github.com/GurungIshan',
     liveDemoUrl: '#',
     imageId: 'cardio-crush',
+  },
+  {
+    title: 'Stocksync',
+    description: 'An Inventory Management System.',
+    techStack: ['React', 'Node.js', 'MongoDB'],
+    githubUrl: 'https://github.com/GurungIshan',
+    imageId: 'stocksync',
   },
 ];
 
@@ -130,14 +128,14 @@ export const experienceData: Experience[] = [
         type: 'Education',
         title: 'Bachelor of Computer Application (BCA)',
         organization: 'Kathford International College',
-        period: '2021 - Present',
+        period: '2022 - Present',
         description: 'Pursuing a comprehensive degree in computer applications, focusing on software development, data structures, algorithms, and web technologies.'
     },
     {
         type: 'Experience',
-        title: 'Upcoming Internship',
-        organization: 'TBD',
-        period: 'Starts September 2025',
+        title: 'Flutter Internship',
+        organization: 'Upcode Nepal',
+        period: 'September 2025 - Present',
         description: 'Eager to apply academic knowledge and technical skills in a professional software development environment.'
     },
     {
@@ -164,7 +162,7 @@ export const experienceData: Experience[] = [
     {
         type: 'Experience',
         title: 'Frontend Training',
-        organization: 'Online Platform',
+        organization: 'Evolve IT Hub',
         period: 'Feb 2024',
         description: 'Completed an intensive training program covering modern frontend development practices, including React and advanced CSS techniques.'
     },
