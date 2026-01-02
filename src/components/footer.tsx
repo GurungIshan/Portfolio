@@ -1,14 +1,23 @@
+'use client';
+
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { contactData } from '@/lib/data';
 import { Button } from './ui/button';
 
 export function Footer() {
+  const [year, setYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="bg-secondary">
       <div className="container py-8">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-muted-foreground md:text-left">
-            &copy; {new Date().getFullYear()} Ishan Gurung. All Rights Reserved.
+            &copy; {year} Ishan Gurung. All Rights Reserved.
           </p>
           <div className="flex items-center gap-2">
             {contactData.socials.map((social) => (
