@@ -171,7 +171,7 @@ export const experienceData: Experience[] = [
 ];
 
 export const contactData = {
-    email: 'ishan.gurung@example.com',
+    email: 'ishangurung187@gmail.com',
     socials: [
         { name: 'GitHub', url: 'https://github.com/GurungIshan', icon: Github },
         { name: 'LinkedIn', url: 'https://www.linkedin.com/in/ishan-gurung-9157ab25a/', icon: Linkedin },
