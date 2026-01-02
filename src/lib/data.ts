@@ -37,6 +37,7 @@ export const skillsData: SkillCategory[] = [
       { name: 'React' },
       { name: 'Bootstrap' },
       { name: 'Flutter' },
+      { name: 'Dart' },
     ],
   },
   {
@@ -128,30 +129,44 @@ export const experienceData: Experience[] = [
     {
         type: 'Education',
         title: 'Bachelor of Computer Application (BCA)',
-        organization: 'Jain (Deemed-to-be University)',
+        organization: 'Kathford International College',
         period: '2021 - Present',
         description: 'Pursuing a comprehensive degree in computer applications, focusing on software development, data structures, algorithms, and web technologies.'
     },
     {
-        type: 'Activity',
-        title: 'Hackathon Participant',
-        organization: 'Various Tech Communities',
-        period: 'Ongoing',
-        description: 'Actively participate in hackathons like "Dot Connect" to solve real-world problems, collaborate with peers, and build innovative solutions under tight deadlines.'
+        type: 'Experience',
+        title: 'Upcoming Internship',
+        organization: 'TBD',
+        period: 'Starts September 2025',
+        description: 'Eager to apply academic knowledge and technical skills in a professional software development environment.'
     },
     {
         type: 'Activity',
-        title: 'Code for Change Contributor',
-        organization: 'Community Initiative',
-        period: '2022',
+        title: 'College Representative',
+        organization: 'Kathford International College',
+        period: 'Feb 2025 - Jan 2026',
+        description: 'Serving as a representative for the student body, bridging communication between students and faculty.'
+    },
+    {
+        type: 'Activity',
+        title: 'General Member',
+        organization: 'Code for Change',
+        period: 'Feb 2024 - Jan 2025',
         description: 'Volunteered for a "Code for Change" event, contributing to open-source projects aimed at social good and community development.'
     },
     {
+        type: 'Activity',
+        title: 'Hackathon Participant & Winner',
+        organization: 'Codefest 2024',
+        period: '2024',
+        description: 'Participated in Codefest 2024, a competitive hackathon. My team\'s project "Dot Connect" won the People\'s Choice Award.'
+    },
+    {
         type: 'Experience',
-        title: 'Web Development Training',
+        title: 'Frontend Training',
         organization: 'Online Platform',
-        period: '2023',
-        description: 'Completed an intensive training program covering modern frontend and backend development practices, including React and Node.js.'
+        period: 'Feb 2024',
+        description: 'Completed an intensive training program covering modern frontend development practices, including React and advanced CSS techniques.'
     },
 ];
 
