@@ -94,7 +94,7 @@ export const projectsData: Project[] = [
   {
     title: 'Traffic Congestion Level Predictor',
     description: 'A machine learning project that analyzes traffic data to predict congestion levels, helping to optimize traffic flow in urban areas.',
-    techStack: ['Python', 'Scikit-learn', 'Pandas', 'Jupyter Notebook'],
+    techStack: ['Python', 'Scikit-learn', 'Pandas', 'Jupyter Notebook', 'Random Forest'],
     githubUrl: 'https://github.com/GurungIshan',
     imageId: 'traffic-predictor',
   },
@@ -103,7 +103,6 @@ export const projectsData: Project[] = [
     description: 'A dynamic website for a gym, featuring class schedules and membership purchasing features.',
     techStack: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
     githubUrl: 'https://github.com/GurungIshan',
-    liveDemoUrl: '#',
     imageId: 'cardio-crush',
   },
   {
