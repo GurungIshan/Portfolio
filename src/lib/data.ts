@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Code, Computer, Database, Server, SwatchBook, ExternalLink, Dna } from 'lucide-react';
+import { Github, Linkedin, Mail, Code, Computer, Database, Server, SwatchBook, ExternalLink, Dna, Brush } from 'lucide-react';
 import type { StaticImageData } from 'next/image';
 
 export const navigation = [
@@ -36,15 +36,22 @@ export const skillsData: SkillCategory[] = [
       { name: 'JavaScript' },
       { name: 'React' },
       { name: 'Bootstrap' },
+    ],
+  },
+  {
+    name: 'Mobile',
+    icon: Code,
+    skills: [
       { name: 'Flutter' },
       { name: 'Dart' },
-    ],
+    ]
   },
   {
     name: 'Backend',
     icon: Server,
     skills: [
       { name: 'PHP' },
+      { name: 'Java Spring Boot' },
       { name: 'ASP.NET Web API' },
     ],
   },
@@ -61,6 +68,13 @@ export const skillsData: SkillCategory[] = [
     icon: Dna,
     skills: [
         { name: 'Python' },
+    ],
+  },
+  {
+    name: 'UI/UX Design',
+    icon: Brush,
+    skills: [
+      { name: 'Figma' },
     ],
   },
   {
@@ -146,10 +160,10 @@ export const experienceData: Experience[] = [
     },
     {
         type: 'Activity',
-        title: 'Hackathon Participant & Winner',
+        title: 'Hackathon Participant',
         organization: 'Codefest 2024',
         period: '2024',
-        description: 'Participated in Codefest 2024, a competitive hackathon. My team\'s project "Dot Connect" won the People\'s Choice Award.'
+        description: 'Participated in Codefest 2024, a competitive hackathon where my team won the People\'s Choice Award.'
     },
     {
         type: 'Experience',
