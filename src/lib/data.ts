@@ -89,7 +89,7 @@ export const projectsData: Project[] = [
     title: 'RefreshCart',
     description: 'A comprehensive eCommerce website built from the ground up, featuring product listings, shopping cart functionality, and user authentication.',
     techStack: ['PHP', 'Bootstrap', 'MySQL', 'JavaScript'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/GurungIshan',
     liveDemoUrl: '#',
     imageId: 'refreshcart',
   },
@@ -97,21 +97,21 @@ export const projectsData: Project[] = [
     title: 'Traffic Congestion Level Predictor',
     description: 'A machine learning project that analyzes traffic data to predict congestion levels, helping to optimize traffic flow in urban areas.',
     techStack: ['Python', 'Scikit-learn', 'Pandas', 'Jupyter Notebook'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/GurungIshan',
     imageId: 'traffic-predictor',
   },
   {
     title: 'Dot Connect',
     description: 'A hackathon project focused on Sustainable Development Goals (SDGs), creating a platform to connect volunteers with community projects.',
     techStack: ['React', 'Java Spring Boot', 'PostgreSQL'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/GurungIshan',
     imageId: 'dot-connect',
   },
   {
     title: 'Cardio Crush Fitness Zone',
     description: 'A dynamic website for a gym, featuring class schedules, online booking, and secure payment integration for memberships.',
     techStack: ['HTML', 'CSS', 'JavaScript', 'Payment APIs'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/GurungIshan',
     liveDemoUrl: '#',
     imageId: 'cardio-crush',
   },
@@ -173,7 +173,7 @@ export const experienceData: Experience[] = [
 export const contactData = {
     email: 'ishan.gurung@example.com',
     socials: [
-        { name: 'GitHub', url: '#', icon: Github },
+        { name: 'GitHub', url: 'https://github.com/GurungIshan', icon: Github },
         { name: 'LinkedIn', url: 'https://www.linkedin.com/in/ishan-gurung-9157ab25a/', icon: Linkedin },
     ],
 };

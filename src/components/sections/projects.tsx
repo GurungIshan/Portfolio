@@ -64,13 +64,6 @@ export function ProjectsSection() {
                       <Github className="mr-2 h-4 w-4" /> GitHub
                     </Link>
                   </Button>
-                  {project.liveDemoUrl && (
-                    <Button asChild>
-                      <Link href={project.liveDemoUrl} target="_blank">
-                        <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
-                      </Link>
-                    </Button>
-                  )}
                 </CardFooter>
               </Card>
             )
