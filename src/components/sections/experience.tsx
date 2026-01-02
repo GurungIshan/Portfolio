@@ -19,30 +19,41 @@ export function ExperienceSection() {
         />
         <div className="relative mt-12">
           <div
-            className="absolute left-4 top-0 h-full w-0.5 bg-border -translate-x-1/2"
+            className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-border"
             aria-hidden="true"
           ></div>
           <div className="space-y-8">
-            {experienceData.map((item) => (
-              <div key={item.title} className="relative pl-12">
-                <div className="absolute left-4 top-2.5 -translate-x-1/2">
+            {experienceData.map((item, index) => (
+              <div
+                key={item.title}
+                className={`relative flex items-center ${
+                  index % 2 === 0 ? 'justify-start' : 'justify-end'
+                }`}
+              >
+                <div
+                  className={`w-[calc(50%-2.5rem)] ${
+                    index % 2 === 0 ? 'order-1' : 'order-2 text-right'
+                  }`}
+                >
+                  <Card>
+                    <CardHeader>
+                      <div className="flex-1">
+                        <CardTitle>{item.title}</CardTitle>
+                        <CardDescription>{item.organization}</CardDescription>
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">{item.period}</p>
+                      <p className="mt-2 text-foreground/80">{item.description}</p>
+                    </CardContent>
+                  </Card>
+                </div>
+
+                <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 order-1 md:order-none">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 ring-8 ring-secondary">
                     {iconMap[item.type]}
                   </div>
                 </div>
-
-                <Card>
-                  <CardHeader>
-                    <div className="flex-1">
-                      <CardTitle>{item.title}</CardTitle>
-                      <CardDescription>{item.organization}</CardDescription>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-muted-foreground">{item.period}</p>
-                    <p className="mt-2 text-foreground/80">{item.description}</p>
-                  </CardContent>
-                </Card>
               </div>
             ))}
           </div>
