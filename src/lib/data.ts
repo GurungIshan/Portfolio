@@ -100,8 +100,8 @@ export const projectsData: Project[] = [
   },
   {
     title: 'Cardio Crush Fitness Zone',
-    description: 'A dynamic website for a gym, featuring class schedules, online booking, and secure payment integration for memberships.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'Payment APIs'],
+    description: 'A dynamic website for a gym, featuring class schedules and membership purchasing features.',
+    techStack: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
     githubUrl: 'https://github.com/GurungIshan',
     liveDemoUrl: '#',
     imageId: 'cardio-crush',
