@@ -86,7 +86,7 @@ export type Project = {
 export const projectsData: Project[] = [
   {
     title: 'Dot Connect',
-    description: 'A hackathon project focused on Sustainable Development Goals (SDGs), creating a platform to connect volunteers with community projects.',
+    description: 'A team hackathon project for "Dot Connect" where I was responsible for the UI/UX design. The project focused on Sustainable Development Goals (SDGs), creating a platform to connect volunteers with community projects.',
     techStack: ['React', 'Java Spring Boot', 'PostgreSQL'],
     githubUrl: 'https://github.com/GurungIshan',
     imageId: 'dot-connect',
