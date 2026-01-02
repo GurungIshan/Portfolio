@@ -19,20 +19,23 @@ export function ExperienceSection() {
         />
         <div className="relative mt-12">
           <div
-            className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-border"
+            className="absolute left-0 top-0 h-full w-0.5 translate-x-6 bg-border md:left-1/2 md:-translate-x-px"
             aria-hidden="true"
           ></div>
           <div className="space-y-8">
             {experienceData.map((item, index) => (
               <div
                 key={item.title}
-                className={`relative flex items-center ${
-                  index % 2 === 0 ? 'justify-start' : 'justify-end'
-                }`}
+                className="relative flex items-start md:items-center"
               >
                 <div
-                  className={`w-[calc(50%-2.5rem)] ${
-                    index % 2 === 0 ? 'order-1' : 'order-2 text-right'
+                  className={`flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-primary/10 ring-8 ring-secondary md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2`}
+                >
+                  {iconMap[item.type]}
+                </div>
+                <div
+                  className={`ml-8 w-full md:ml-0 md:w-[calc(50%-2.5rem)] ${
+                    index % 2 === 0 ? 'md:mr-auto' : 'md:ml-auto md:text-right'
                   }`}
                 >
                   <Card>
@@ -47,12 +50,6 @@ export function ExperienceSection() {
                       <p className="mt-2 text-foreground/80">{item.description}</p>
                     </CardContent>
                   </Card>
-                </div>
-
-                <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 order-1 md:order-none">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 ring-8 ring-secondary">
-                    {iconMap[item.type]}
-                  </div>
                 </div>
               </div>
             ))}
