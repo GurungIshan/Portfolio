@@ -4,25 +4,25 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%; /* GitHub light bg */
-    --foreground: 210 12% 15%; /* GitHub light text */
-    --card: 220 13% 97%; /* GitHub light card-ish bg */
-    --card-foreground: 210 12% 15%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 210 12% 15%;
-    --primary: 212 92% 45%; /* GitHub blue */
-    --primary-foreground: 0 0% 98%;
-    --secondary: 220 14% 96%; /* GitHub light secondary bg */
-    --secondary-foreground: 210 12% 15%;
-    --muted: 220 14% 93%;
-    --muted-foreground: 215 9% 45%; /* GitHub light muted text */
-    --accent: 212 92% 55%; 
-    --accent-foreground: 0 0% 98%;
-    --destructive: 350 79% 51%; /* GitHub red */
+    --background: 210 20% 98%;
+    --foreground: 215 15% 20%;
+    --card: 210 20% 100%;
+    --card-foreground: 215 15% 20%;
+    --popover: 210 20% 100%;
+    --popover-foreground: 215 15% 20%;
+    --primary: 205 90% 45%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 210 20% 94%;
+    --secondary-foreground: 215 15% 20%;
+    --muted: 210 20% 88%;
+    --muted-foreground: 215 15% 45%;
+    --accent: 145 63% 45%;
+    --accent-foreground: 210 20% 98%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
-    --border: 210 18% 87%; /* GitHub light border */
-    --input: 210 18% 87%;
-    --ring: 212 92% 45%;
+    --border: 210 20% 80%;
+    --input: 210 20% 80%;
+    --ring: 205 90% 45%;
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
     --chart-3: 197 37% 24%;
@@ -32,25 +32,25 @@
   }
  
   .dark {
-    --background: 216 28% 7%; /* GitHub dark bg */
-    --foreground: 210 22% 84%; /* GitHub dark text */
-    --card: 220 23% 11%; /* GitHub dark card bg */
-    --card-foreground: 210 22% 84%;
-    --popover: 220 23% 11%;
-    --popover-foreground: 210 22% 84%;
-    --primary: 212 92% 55%; /* GitHub dark blue */
-    --primary-foreground: 0 0% 10%;
-    --secondary: 216 28% 12%; /* GitHub dark secondary bg */
-    --secondary-foreground: 210 22% 84%;
-    --muted: 216 28% 18%;
-    --muted-foreground: 215 15% 60%; /* GitHub dark muted text */
-    --accent: 212 92% 65%;
-    --accent-foreground: 0 0% 10%;
-    --destructive: 0 63% 51%; /* GitHub dark red */
+    --background: 222 47% 11%;
+    --foreground: 210 40% 96%;
+    --card: 222 47% 13%;
+    --card-foreground: 210 40% 96%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 205 90% 55%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 222 47% 18%;
+    --secondary-foreground: 210 40% 96%;
+    --muted: 222 47% 24%;
+    --muted-foreground: 215 25% 65%;
+    --accent: 145 63% 55%;
+    --accent-foreground: 222 47% 11%;
+    --destructive: 0 63% 51%;
     --destructive-foreground: 0 0% 98%;
-    --border: 216 15% 22%; /* GitHub dark border */
-    --input: 216 15% 22%;
-    --ring: 212 92% 55%;
+    --border: 217 33% 25%;
+    --input: 217 33% 25%;
+    --ring: 205 90% 55%;
     --chart-1: 12 76% 71%;
     --chart-2: 173 58% 49%;
     --chart-3: 197 37% 34%;
